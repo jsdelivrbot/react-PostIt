@@ -8,6 +8,6 @@ import PostNew from './components/posts/PostNew';
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={PostsIndex} />
-    <PostNew path="posts/new" component={PostNew} />
+    <Route path="posts/new" component={PostNew} />
   </Route>
 );
